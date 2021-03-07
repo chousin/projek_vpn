@@ -1,0 +1,165 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	position: relative;
+	z-index: 1;
+}
+
+
+.foto img{
+	width: 80px;
+	height: 40px;
+
+}
+.gambar-kanan{
+	margin-top: -250px;
+	width: 400px;
+}
+
+.tombol{
+	text-transform: uppercase;
+	border-radius: 5px;
+	color: white;
+	border: 2px solid white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.tombol1{
+	border-radius: 5px;
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	text-shadow: 2px 2px 2px black;
+	margin-top: 20px;
+}
+
+.apa{
+	margin-top: 200px;
+}
+
+
+
+.col-md-3{
+	text-align: center;
+	margin-left: 70%;
+	margin-top: -20%;
+
+}
+
+.siapa-kami{
+	font-weight: bold;
+}
+
+.h33{
+	margin-top: 30px;
+	font-size: 22px;
+	font-weight: 200;
+}
+
+h2{
+	font-size: 60pt;
+	font-weight: 400;
+}
+
+.pelanggan{
+	font-size: 20pt;
+}
+
+
+
+.jumbotron{
+	background-color: #0E0F24;
+	height: 740px;
+	text-align: left;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+ 
+
+.jumbotron .container{
+	z-index: 1;
+	position: relative;
+}
+
+.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 80%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))
+	position: absolute;
+	bottom: 0;
+}
+
+.jumbotron .display-4{
+	color: white;
+	margin-top: 150px;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: poppins;
+	margin-bottom: 30px; 
+	text-shadow: 2px 2px 2px black;
+}
+
+.jumbotron .display-4 span{
+	font-weight: 500;	
+}
+
+
+.slide-2{
+	width: 100%;
+	height: 300px;
+	margin-top: -32px;
+}
+
+
+
+
+
+@media (min-width: 992px) { 
+
+.navbar-brand, .nav-link{
+	color: white !important;
+	text-shadow: 2px 2px 2px black;
+}
+
+.nav-link{
+	text-transform: uppercase;
+	margin-right: 35px;
+}
+
+.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid #b14c9a;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 3px;
+	margin-bottom: -8px;
+
+}
+
+.jumbotron{
+	margin-top: -75px;
+	height: 740px;
+}
+
+.jumbotron .display-4{
+	font-size: 62px;
+}
+
+
+}
+
+@media (min-width: 576px) {
+	.photo{
+		background-color: #0E0F24;
+	}
+}
